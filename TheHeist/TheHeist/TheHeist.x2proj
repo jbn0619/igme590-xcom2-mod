@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>fa9b04b1-c447-4ce3-b608-d6f7a7d0e648</Guid>
+    <Name>Example Mission</Name>
+    <Description>This example mod demonstrates how to create a new type of mission for XCOM 2</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ExampleMission</AssemblyName>
+    <RootNamespace>ExampleMission</RootNamespace>
+    <ProjectGuid>{3f350978-33e7-493a-993b-92c1b54bf591}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComMissions.ini" />
+    <Content Include="Config\XComParcels.ini" />
+    <Content Include="Config\XComPCPs.ini" />
+    <Content Include="Content\EX_BombDisposalContent.upk" />
+    <Content Include="Content\EX_Obj_BombDisposal.umap" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\ExampleMission\Classes\X2Item_ExampleMission.uc" />
+    <Content Include="Src\ExampleMission\Classes\X2MissionNarrative_ExampleMission.uc" />
+    <Content Include="Src\ExampleMission\Classes\X2MissionSet_ExampleMission.uc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\ExampleMission\" />
+    <Folder Include="Src\ExampleMission\Classes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
