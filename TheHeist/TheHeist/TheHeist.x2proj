@@ -15,8 +15,9 @@
     <Content Include="Config\XComMissions.ini" />
     <Content Include="Config\XComParcels.ini" />
     <Content Include="Config\XComPCPs.ini" />
-    <Content Include="Content\EX_BombDisposalContent.upk" />
-    <Content Include="Content\EX_Obj_BombDisposal.umap" />
+    <Content Include="Content\the_heist.umap">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Localization\XComGame.int" />
     <Content Include="ModPreview.jpg" />
     <Content Include="ReadMe.txt" />
