@@ -70,7 +70,6 @@ function SniperUnlockResearchCompleted(XComGameState NewGameState, XComGameState
 
 	XComHQ = GetNewXComHQState(NewGameState);
 	// Unlock stuff.
-	//XComHQ.bReuseUpgrades = true;
 }
 
 // Executes after the shotgun unlock tech has been completed.
@@ -80,5 +79,4 @@ function ShotgunUnlockResearchCompleted(XComGameState NewGameState, XComGameStat
 
 	XComHQ = GetNewXComHQState(NewGameState);
 	// Unlock stuff.
-	//XComHQ.bReusePCS = true;
 }
