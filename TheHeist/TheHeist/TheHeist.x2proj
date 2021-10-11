@@ -23,6 +23,9 @@
     <Content Include="Src\ExampleMission\Classes\X2Item_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2MissionNarrative_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2MissionSet_ExampleMission.uc" />
+    <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistPointsOfInterest.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config\" />
