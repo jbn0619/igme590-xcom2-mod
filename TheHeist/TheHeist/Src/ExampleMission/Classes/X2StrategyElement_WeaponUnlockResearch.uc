@@ -32,7 +32,7 @@ static function X2DataTemplate CreateSniperUnlockResearch()
 	//Template.Requirements.bVisibleIfTechsNotMet = true;
 
 	// Cost
-	Resources.ItemTemplateName = 'Supplies';
+	Resources.ItemTemplateName = 'ExperimentalBlueprint';
 	Resources.Quantity = default.SniperUnlockResearch_Cost;
 	Template.Cost.ResourceCosts.AddItem(Resources);
 
@@ -56,7 +56,7 @@ static function X2DataTemplate CreateShotgunUnlockResearch()
 	//Template.Requirements.bVisibleIfTechsNotMet = true;
 
     // Cost
-	Resources.ItemTemplateName = 'Supplies';
+	Resources.ItemTemplateName = 'ExperimentalBlueprint';
 	Resources.Quantity = default.ShotgunUnlockResearch_Cost;
 	Template.Cost.ResourceCosts.AddItem(Resources);
 
