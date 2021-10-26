@@ -12,9 +12,15 @@
   <ItemGroup>
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComMissions.ini" />
     <Content Include="Config\XComParcels.ini" />
     <Content Include="Config\XComPCPs.ini" />
+    <Content Include="Config\XComWeaponUnlockResearch_Set.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\EX_BombDisposalContent.upk" />
     <Content Include="Content\EX_Obj_BombDisposal.umap" />
     <Content Include="Localization\XComGame.int" />
@@ -24,6 +30,9 @@
     <Content Include="Src\ExampleMission\Classes\X2MissionNarrative_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2MissionSet_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistPointsOfInterest.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ExampleMission\Classes\X2StrategyElement_WeaponUnlockResearch.uc">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
