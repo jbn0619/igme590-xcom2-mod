@@ -23,6 +23,9 @@
     </Content>
     <Content Include="Content\EX_BombDisposalContent.upk" />
     <Content Include="Content\EX_Obj_BombDisposal.umap" />
+    <Content Include="Content\lg_MunicipalBuildingMod_01.umap">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\the_heist.umap">
       <SubType>Content</SubType>
     </Content>
