@@ -24,8 +24,6 @@
     <Content Include="Config\XComWeaponUnlockResearch_Set.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Content\EX_BombDisposalContent.upk" />
-    <Content Include="Content\EX_Obj_BombDisposal.umap" />
     <Content Include="Content\lg_MunicipalBuildingMod_01.umap">
       <SubType>Content</SubType>
     </Content>
@@ -35,9 +33,6 @@
     <Content Include="Localization\XComGame.int" />
     <Content Include="ModPreview.jpg" />
     <Content Include="ReadMe.txt" />
-    <Content Include="Src\ExampleMission\Classes\X2DownloadableContentInfo_TheHeist.uc">
-      <SubType>Content</SubType>
-    </Content>
     <Content Include="Src\ExampleMission\Classes\X2Item_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2Item_ExperimentalBlueprint.uc">
       <SubType>Content</SubType>
@@ -47,9 +42,9 @@
     <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistPointsOfInterest.uc">
       <SubType>Content</SubType>
     </Content>
-	  <Content Include="Src\ExampleMission\Classes\X2StrategyElement_WeaponUnlockResearch.uc">
-		  <SubType>Content</SubType>
-	  </Content>
+    <Content Include="Src\ExampleMission\Classes\X2StrategyElement_WeaponUnlockResearch.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\IncendiaryShotgun\Classes\X2DownloadableContentInfo_IncendiaryShotgun.uc">
       <SubType>Content</SubType>
     </Content>

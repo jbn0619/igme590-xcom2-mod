@@ -1,6 +1,6 @@
 // This is an Unreal Script
 
-class X2StrategyElement_HeistPointsOfInterest extends X2StrategyElement_DefaultPointsOfInterest
+class X2StrategyElement_HeistPointsOfInterest extends X2StrategyElement_DefaultPointsOfInterest;
 
 // Create template items and return that to fill-out the information in this POI.
 static function array<X2DataTemplate> CreateTemplates()
