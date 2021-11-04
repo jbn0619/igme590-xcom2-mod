@@ -12,6 +12,12 @@
   <ItemGroup>
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComIncendiaryShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComMissions.ini" />
     <Content Include="Config\XComParcels.ini" />
     <Content Include="Config\XComPCPs.ini" />
@@ -24,6 +30,12 @@
     <Content Include="Src\ExampleMission\Classes\X2Item_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2MissionNarrative_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2MissionSet_ExampleMission.uc" />
+    <Content Include="Src\IncendiaryShotgun\Classes\X2DownloadableContentInfo_IncendiaryShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\IncendiaryShotgun\Classes\X2Item_IncendiaryShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config\" />
@@ -32,6 +44,8 @@
     <Folder Include="Src\" />
     <Folder Include="Src\ExampleMission\" />
     <Folder Include="Src\ExampleMission\Classes\" />
+    <Folder Include="Src\IncendiaryShotgun" />
+    <Folder Include="Src\IncendiaryShotgun\Classes" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
