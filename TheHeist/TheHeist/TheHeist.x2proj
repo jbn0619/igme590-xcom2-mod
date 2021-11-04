@@ -29,7 +29,13 @@
     <Content Include="Localization\XComGame.int" />
     <Content Include="ModPreview.jpg" />
     <Content Include="ReadMe.txt" />
+    <Content Include="Src\ExampleMission\Classes\X2DownloadableContentInfo_TheHeist.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\ExampleMission\Classes\X2Item_ExampleMission.uc" />
+    <Content Include="Src\ExampleMission\Classes\X2Item_ExperimentalBlueprint.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\ExampleMission\Classes\X2MissionNarrative_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2MissionSet_ExampleMission.uc" />
     <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistPointsOfInterest.uc">
