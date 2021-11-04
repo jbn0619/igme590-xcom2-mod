@@ -47,7 +47,9 @@
     <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistPointsOfInterest.uc">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Src\ExampleMission\Classes\X2StrategyElement_WeaponUnlockResearch.uc">
+	  <Content Include="Src\ExampleMission\Classes\X2StrategyElement_WeaponUnlockResearch.uc">
+		  <SubType>Content</SubType>
+	  </Content>
     <Content Include="Src\IncendiaryShotgun\Classes\X2DownloadableContentInfo_IncendiaryShotgun.uc">
       <SubType>Content</SubType>
     </Content>
