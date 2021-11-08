@@ -15,6 +15,9 @@
     <Content Include="Config\XComMissions.ini" />
     <Content Include="Config\XComParcels.ini" />
     <Content Include="Config\XComPCPs.ini" />
+    <Content Include="Content\lg_MunicipalBuildingMod_01.umap">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\the_heist.umap">
       <SubType>Content</SubType>
     </Content>
