@@ -31,9 +31,18 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Localization\XComGame.int" />
+    <Content Include="Models\SocialDistancer.fbx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Models\TheSocialDistancer.blend">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ModPreview.jpg" />
     <Content Include="ReadMe.txt" />
     <Content Include="Src\ExampleMission\Classes\X2DownloadableContentInfo_IncendiaryShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ExampleMission\Classes\X2DownloadableContentInfo_StealthSniper.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\ExampleMission\Classes\X2Item_ExampleMission.uc" />
@@ -41,6 +50,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\ExampleMission\Classes\X2Item_IncendiaryShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ExampleMission\Classes\X2Item_StealthSniper.uc">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Src\ExampleMission\Classes\X2MissionNarrative_ExampleMission.uc" />
@@ -56,6 +68,7 @@
     <Folder Include="Config\" />
     <Folder Include="Content\" />
     <Folder Include="Localization\" />
+    <Folder Include="Models" />
     <Folder Include="Src\" />
     <Folder Include="Src\ExampleMission\" />
     <Folder Include="Src\ExampleMission\Classes\" />
