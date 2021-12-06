@@ -16,7 +16,7 @@ static function X2DataTemplate CreateExperimentalBlueprint()
 {
 	local X2ItemTemplate Template;
 
-	`CREATE_X2TEMPLATE(class'X2ItemTemplate', Template, 'ExperimentalBlueprint');
+	`CREATE_X2TEMPLATE(class'X2ItemTemplate', Template, 'TEMP_ExperimentalBlueprint');
 
 	Template.strImage = "";
 	Template.ItemCat = 'resource';
