@@ -33,7 +33,7 @@ static function X2DataTemplate CreateTemplate_IncendiaryShotgun()
 	Template.strImage = "img:///UILibrary_Common.ConvShotgun.ConvShotgun_Base";
 	Template.Tier = 0;
 
-	Template.RangeAccuracy = class'X2Item_DefaultWeapons'.default.MEDIUM_CONVENTIONAL_RANGE;
+	Template.RangeAccuracy = default.FLAMESHOT_RANGE;
 
 	Template.BaseDamage = default.FLAMESHOT_BASEDAMAGE;
 	Template.Aim = default.FLAMESHOT_AIM;
@@ -52,7 +52,7 @@ static function X2DataTemplate CreateTemplate_IncendiaryShotgun()
 	Template.Abilities.AddItem('Reload');
 	Template.Abilities.AddItem('HotLoadAmmo');
 
-	Template.GameArchetype = "WP_Shotgun_CV.WP_Shotgun_CV";
+	Template.GameArchetype = "FlameShot.Archetype.WP_FlameShot";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Shotgun';
 	Template.AddDefaultAttachment('Foregrip', "ConvShotgun.Meshes.SM_ConvShotgun_ForegripA" /*FORGRIP INCLUDED IN MAG IMAGE*/);
 	Template.AddDefaultAttachment('Mag', "ConvShotgun.Meshes.SM_ConvShotgun_MagA", , "img:///UILibrary_Common.ConvShotgun.ConvShotgun_MagA");

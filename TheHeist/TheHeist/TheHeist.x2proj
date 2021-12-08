@@ -24,6 +24,9 @@
     <Content Include="Config\XComWeaponUnlockResearch_Set.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Content\FlameShot.upk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\lg_MunicipalBuildingMod_01.umap">
       <SubType>Content</SubType>
     </Content>
