@@ -6,18 +6,18 @@ static function array<X2DataTemplate> CreateTemplates()
 {
     local array<X2MissionNarrativeTemplate> Templates;
 
-    Templates.AddItem(AddDefaultEXBombDisposalNarrativeTemplate());
+    Templates.AddItem(AddDefaultRecoverWepNarrativeTemplate());
 
     return Templates;
 }
 
-static function X2MissionNarrativeTemplate AddDefaultEXBombDisposalNarrativeTemplate()
+static function X2MissionNarrativeTemplate AddDefaultRecoverWepNarrativeTemplate()
 {
     local X2MissionNarrativeTemplate Template;
 
-    `CREATE_X2MISSIONNARRATIVE_TEMPLATE(Template, 'DefaultEX_BombDisposal');
+    `CREATE_X2MISSIONNARRATIVE_TEMPLATE(Template, 'DefaultRecover_Wep');
 
-    Template.MissionType = "EX_BombDisposal";
+    Template.MissionType = "Recover_Wep";
     Template.NarrativeMoments[0]="EX_BombDisposalContent.VO.BombDisposal_PlaceholderChirp"; //Tactical Intro
 	Template.NarrativeMoments[1]="EX_BombDisposalContent.VO.BombDisposal_PlaceholderChirp"; //Bomb Spotted
 	Template.NarrativeMoments[2]="EX_BombDisposalContent.VO.BombDisposal_PlaceholderChirp"; //Bomb Disarmed

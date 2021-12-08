@@ -63,6 +63,12 @@
     <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistPointsOfInterest.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistRewards.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ExampleMission\Classes\X2StrategyElement_HeistSources.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\ExampleMission\Classes\X2StrategyElement_WeaponUnlockResearch.uc">
       <SubType>Content</SubType>
     </Content>

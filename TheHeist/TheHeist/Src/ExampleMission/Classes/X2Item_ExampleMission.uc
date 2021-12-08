@@ -4,26 +4,24 @@ static function array<X2DataTemplate> CreateTemplates()
 {
 	local array<X2DataTemplate> Items;
 
-	// Bomb Disposal
-	Items.AddItem(CreateQuestItemEX_BombDisposal());
+	Items.AddItem(CreateQuestItemExperimentalBlueprint());
 	
 	return Items;
 }
 
-static function X2DataTemplate CreateQuestItemEX_BombDisposal()
+static function X2DataTemplate CreateQuestItemExperimentalBlueprint()
 {
 	local X2QuestItemTemplate Item;
 
-	`CREATE_X2TEMPLATE(class'X2QuestItemTemplate', Item, 'EX_BombDisposal_EleriumCharge');
-	Item.ItemCat = 'quest';
+	`CREATE_X2TEMPLATE(class'X2QuestItemTemplate', Item, 'ExperimentalBlueprint');
+	Item.strImage = "";
+	Item.ItemCat = 'resource';
+	Item.CanBeBuilt = false;
+	Item.HideInInventory = false;
 
-	Item.MissionType.AddItem("EX_BombDisposal");
+	Item.MissionType.AddItem("Recover_Wep");
 
-	Item.RewardType.AddItem('Reward_Intel');
-	Item.RewardType.AddItem('Reward_Supplies');
-	Item.RewardType.AddItem('Reward_Soldier');
-	Item.RewardType.AddItem('Reward_Scientist');
-	Item.RewardType.AddItem('Reward_Engineer');
+	Item.RewardType.AddItem('Reward_ExperimentalBlueprint');
 
 	return Item;
 }
