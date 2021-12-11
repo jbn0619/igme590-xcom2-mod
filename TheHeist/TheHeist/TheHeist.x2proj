@@ -21,6 +21,9 @@
     <Content Include="Config\XComMissions.ini" />
     <Content Include="Config\XComParcels.ini" />
     <Content Include="Config\XComPCPs.ini" />
+    <Content Include="Config\XComStealthSniper.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComWeaponUnlockResearch_Set.ini">
       <SubType>Content</SubType>
     </Content>
@@ -28,6 +31,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\lg_MunicipalBuildingMod_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\SocialDistancer.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\the_heist.umap">

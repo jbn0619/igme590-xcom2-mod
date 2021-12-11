@@ -60,7 +60,7 @@ static function X2DataTemplate CreateTemplate_StealthSniper()
 	Template.Abilities.AddItem('Stealth');
 	Template.Abilities.AddItem('Stealth');
 
-	Template.GameArchetype = "WP_SniperRifle_CV.WP_SniperRifle_CV";
+	Template.GameArchetype = "SocialDistancer.Archetypes.WP_SocialDistancer_CV";
 	Template.UIArmoryCameraPointTag = 'UIPawnLocation_WeaponUpgrade_Sniper';
 	Template.AddDefaultAttachment('Mag', "ConvSniper.Meshes.SM_ConvSniper_MagA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_MagA");
 	Template.AddDefaultAttachment('Optic', "ConvSniper.Meshes.SM_ConvSniper_OpticA", , "img:///UILibrary_Common.ConvSniper.ConvSniper_OpticA");
